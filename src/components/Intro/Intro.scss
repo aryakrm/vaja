@@ -1,0 +1,43 @@
+.Intro{
+    position: relative;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .LazyLoad{
+        position: relative;
+        height: 100vh;
+        .coalsBG{
+            position: relative;
+            z-index: 0;
+            height: 100vh;
+            width: 100vw;
+        }
+    }
+    h1{
+        position: absolute;
+        z-index: 1;
+        top: 10rem;
+        color: white;
+        align-items: center;
+        text-align: center;
+        margin-top: 6rem;
+        font-family: 'Oswald', sans-serif;
+        span{
+            font-size: 1.5rem;
+        }
+    }
+    .stickers{
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-top: 6rem;
+        gap: 2rem;
+        img{
+            width: 10rem;
+            margin-top: 13rem; 
+        }
+    }
+}

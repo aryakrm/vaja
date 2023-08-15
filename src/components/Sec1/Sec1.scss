@@ -1,0 +1,47 @@
+.Sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5rem 0;
+    gap: 5rem;
+    .left{
+       table{
+        border-radius: 20px;
+        border-color: #F94C10;
+        tbody{
+            tr{
+                margin: 2rem;
+                td{
+                    padding: 1rem;
+                    border-radius: 20px;
+                    border-color: #F94C10;
+                    margin: 2rem;
+                }
+            }
+        }
+       }
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    justify-content: center;
+        h1{
+            width: fit-content;
+            background: #F94C10;
+            padding: 1rem;
+            border-radius: 2rem;
+            color: white;
+        }
+        ul{
+            list-style: none;
+            text-align: center;
+            background: #F94C10;
+            padding: 1rem;
+            border-radius: 2rem;
+            margin-top: 1rem;
+            color: white;
+        }
+    }
+   
+}

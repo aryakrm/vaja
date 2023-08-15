@@ -4,7 +4,13 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
+    .LazyLoad{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
         width: 13%;
     }
+    }
 }
+    
