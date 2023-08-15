@@ -12,14 +12,12 @@ html {
 
 body {
   margin: 0;
-  font-family: "Enriqueta", sans-serif;
+  font-family: 'Oswald', sans-serif;
   width: 100vw;
   overflow-x: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background-image: url(../public/assets/bg4.jpg); */
-  /* background-size: 200%; */
 }
 
 code {

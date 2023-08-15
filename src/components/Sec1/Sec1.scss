@@ -5,12 +5,17 @@
     margin: 5rem 0;
     gap: 5rem;
     .left{
+        width: 30%;
        table{
         border-radius: 20px;
         border-color: #F94C10;
+        padding: 1rem;
+        color: #F94C10;
+        width: 100%;
         tbody{
             tr{
                 margin: 2rem;
+                padding: 1rem;
                 td{
                     padding: 1rem;
                     border-radius: 20px;
