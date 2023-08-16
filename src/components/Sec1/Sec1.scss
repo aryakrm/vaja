@@ -2,25 +2,40 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 5rem 0;
     gap: 5rem;
+   
     .left{
-        width: 30%;
+        width: 40%;
+        margin: 2rem 0;
+        h1{
+            color: rgb(255, 255, 255);
+            background: rgba(53, 53, 53, 0.5);
+            text-align: center;
+            border-radius: 2rem;
+            margin: 1rem;
+            padding: 1rem 0;
+            box-shadow: 1px 1px 1px white;
+        }
        table{
-        border-radius: 20px;
-        border-color: #F94C10;
+        background: rgba(53, 53, 53, 0.5);
+        border: 2px solid white;
+        border-radius: 2rem;
         padding: 1rem;
-        color: #F94C10;
+        color: white;
         width: 100%;
+        border-collapse: separate;
+        border: none;
+        box-shadow: 1px 1px 1px white;
         tbody{
             tr{
                 margin: 2rem;
                 padding: 1rem;
+                
                 td{
                     padding: 1rem;
-                    border-radius: 20px;
-                    border-color: #F94C10;
+                    border-radius: 2rem;
                     margin: 2rem;
+                    border: 2px solid white;
                 }
             }
         }
@@ -30,22 +45,31 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-    justify-content: center;
+        justify-content: center;
+        margin: 4rem 0;
         h1{
             width: fit-content;
-            background: #F94C10;
+            
+            box-shadow: 1px 1px 1px white;
             padding: 1rem;
             border-radius: 2rem;
-            color: white;
+            color: rgb(255, 255, 255);
+            background: rgba(53, 53, 53, 0.5);
         }
         ul{
             list-style: none;
             text-align: center;
-            background: #F94C10;
+            box-shadow: 1px 1px 1px white;
             padding: 1rem;
             border-radius: 2rem;
             margin-top: 1rem;
-            color: white;
+            color: rgb(255, 255, 255);
+            background: rgba(53, 53, 53, 0.5);
+            li{
+                svg{
+                    fill: orangered;
+                }
+            }
         }
     }
    

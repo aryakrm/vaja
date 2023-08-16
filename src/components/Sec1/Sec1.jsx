@@ -7,11 +7,12 @@ function Sec1() {
   return (
     <section className='Sec1'>
         <div className='left'>
+          <h1>Approximate Analysis Results</h1>
         <table border='1'>
 <tbody>
 <tr>
-<td>Product Items</td>
-<td>For 1000 gr Average Values</td>
+<td style={{backgroundColor: 'rgba(255, 255, 255, 0.2)', color: 'white'}} >Product Items</td>
+<td style={{backgroundColor: 'rgba(255, 255, 255, 0.2)', color: 'white'}}>For 1000 gr Average Values</td>
 </tr>
 <tr>
 <td>Carbon</td>

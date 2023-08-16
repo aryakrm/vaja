@@ -4,6 +4,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    #background-video {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+      }
     .LazyLoad{
         position: relative;
         height: 100vh;
@@ -22,7 +33,7 @@
         align-items: center;
         text-align: center;
         margin-top: 6rem;
-        font-family: 'Oswald', sans-serif;
+        font-family: 'Lexend', sans-serif;
         span{
             font-size: 1.5rem;
         }

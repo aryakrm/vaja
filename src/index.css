@@ -12,12 +12,13 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Lexend', sans-serif;
   width: 100vw;
   overflow-x: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url(../public/assets/coalsBG.jpg);
 }
 
 code {
